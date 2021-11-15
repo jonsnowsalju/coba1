@@ -16,11 +16,11 @@ module.exports = ghost = (client) =>{
 			setTimeout(() => {
 			client.delete_message(msg.id, config.botChannel);
 			}, 100)
-		};
-		},randomTimer)
+		);
+		}, randomTimer);
 	},
 	null,
 	true,
 	config.timezone
-	};
+	)
 };
