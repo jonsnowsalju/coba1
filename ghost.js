@@ -23,8 +23,4 @@ module.exports = ghost = (client) =>{
 			true,
 			config.timezone
 		);
-	
-	} catch (error) {
-		console.log(error.message);
-	}
 };
