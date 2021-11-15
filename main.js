@@ -6,7 +6,7 @@ import Discord from "discord-user-bots";
 const client = new Discord.Client(config.token);
 import cron from "cron";
 import shill from "./words.js";
-import ghost from "./ghost.js";
+import { ghost } from "./ghost.js";
 
 const rng = (arr) => {
 	for (var i = arr.length - 1; i > 0; i--) {
