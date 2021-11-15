@@ -6,7 +6,7 @@ import Discord from "discord-user-bots";
 const client = new Discord.Client(config.token);
 import cron from "cron";
 import shill from "./words.js"
-import rank from ".checkrank.js"
+import ghost from "./ghost.js"
 
 const rng = (arr) => {
 	for (var i = arr.length - 1; i > 0; i--) {
@@ -25,7 +25,7 @@ client.on.ready = function () {
 	console.log("Client online! Created by t.me/snowfluke");
 
 	try {
-		rank(client);
+		ghost(client);
 	// How to read the cron asterisk notation: https://crontab.guru/
 		let q0 = new cron.CronJob(
 			"*/2 * * * *",
