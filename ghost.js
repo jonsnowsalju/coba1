@@ -6,7 +6,7 @@ import Discord from "discord-user-bots";
 const client = new Discord.Client(config.token);
 import cron from "cron";
 
-export const ghost = ghost = (client) => {
+export const ghost = (client) =>
 	let invite = new cron.CronJob(
 	"*/1 * * * *",
 	async () => {
