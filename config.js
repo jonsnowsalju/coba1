@@ -1,5 +1,5 @@
 export default {
-	token: "mfa._YtxIB8SpwxzUpSJMU7mUnZf85dXE7brm90aNejt3heozsswzD_-jXNSX675G6Ced8FxR-A7wfPTAqI4YIyM",
+	token: "auth",
 	tokenSymbol: "BSAMO",
 	projectName: "Buff Samo",
 	timezone: "Asia/Jakarta",
